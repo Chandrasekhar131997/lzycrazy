@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  background-color: rgb(238, 236, 236);
+}
+
+
+
+/*------------------------------------------------------------------*/
+/*-----------------Index-content-----------------*/
+/*------------------------------------------------------------------*/
+/*Nav*/
+.n-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	top: 0;
+	color: #fff;
+	border: 1px solid rgb(220, 219, 219);
+  border-bottom: 1px solid rgb(9, 9, 9);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+	background-color: white !important;
+	position: fixed;
+	z-index: 999;
+}
+.midle-parent{
+  display:contents;
+  text-align: center;
+}
+.midle-text{
+  padding: 5px;
+}
+.midle-text2{
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+}
+.carousel-content{
+border: 1px solid black;
+border-radius: 10px;
+margin-top: 20px;
+width: 620px;
+}
+.box{
+  margin-top: 85px;
+  font-family:sans-serif;
+}
+.icon-circle{
+  border: 1px;
+  border-radius: 50%;
+  background-color: rgb(194, 192, 192);
+  /* color: black; */
+  width: 20px;
+  padding: 5px;
+}
+.icon-text{
+  color: black;
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+.arrow-symbol{
+  color: blue;
+  font-weight: bolder !important;
+
+}
