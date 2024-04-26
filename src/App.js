@@ -19,8 +19,10 @@ function App() {
   return (
     <>
     <Navbar/>
+    <div className="App">
+    
     <Router>
-      <div className="App">
+      
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -36,8 +38,9 @@ function App() {
             <Route path="/commingsoon" element={<Commingsoon />} />
           </Routes>
         </Suspense>
-      </div>
+     
     </Router>
+    </div>
     </>
   );
 }
